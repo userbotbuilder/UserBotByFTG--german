@@ -67,7 +67,7 @@ class TranslateMod(loader.Module):
         args[0] = args[0].lower()
         logger.debug(args)
         translated = self.tr.translate(text, args[1], args[0])
-        ret = _("<b>Ich habe </b><code>{text}</code>\n<b>von </b><code>{frlang}</code><b>nach </b>"
+        ret = _("<b>Ich habe </b><code>{text}</code>\n<b>von </b><code>{frlang}</code><b> nach </b>"
                 + "<code>{to}</code><b> übersetzt. da: </b>\n<code>{output}</code>")
         ret = ret.format(text=utils.escape_html(text), frlang=utils.escape_html(args[0]),
                          to=utils.escape_html(args[1]), output=utils.escape_html(translated))
