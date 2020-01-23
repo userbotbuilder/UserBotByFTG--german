@@ -44,8 +44,8 @@ class AntiPMMod(loader.Module):
                "who_to_report": "<b>Wenn soll ich melden?</b>",
                "reported": "<b>Ich habe dich nun zwecks spam gemeldet!</b>",
                "who_to_deny": "<b>Von wem soll ich die PNs ablehnen?</b>",
-               "denied": ("<b>Ich habe </b> <a href='tg://user?id={}'>DIR</a> "
-                          "<b>die Berechtigung entzogen, mit mir zu schreiben.</b>"),
+               "denied": ("<b>So,</b> <a href='tg://user?id={}'>Du</a> "
+                          "<b>Ich bin wieder offline. Ciao!</b>"),
                "notif_off": "<b>Benachrichtigungen für abgelehnte PNs sind nun deaktiviert.</b>",
                "notif_on": "<b>Benachrichtigungen für abgelehnte PNs sind nun aktiviert.</b>",
                "go_away": ("Hey Hey! Aktuell bin ich offline. "
