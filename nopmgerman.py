@@ -34,17 +34,17 @@ class AntiPMMod(loader.Module):
     strings = {"name": "Anti PM",
                "limit_cfg_doc": "Max number of PMs before user is blocked, or None",
                "who_to_block": "<b>Gib' an, wen du freigeben willst</b>",
-               "blocked": ("<b>Du solltest es mit mir nicht anlegen, deshalb wurdest</b> <a href='tg://user?id={}'>DU</a>, "
+               "blocked": ("<b>Du solltest es mit mir nicht anlegen, deshalb wurdest</b> <a href='tg://user?id={}'>DU</a> "
                            "<b>blockiert!</b>"),
                "who_to_unblock": "<b>Specify whom to unblock</b>",
-               "unblocked": ("<b>Alright fine! Diesmal vergebe ich ihm, ich habe PNs freigeschalten für </b> "
+               "unblocked": ("<b>Ah super! Diesmal vergebe ich ihm, ich habe PNs freigeschalten für </b> "
                              "<a href='tg://user?id={}'>diesen Nutzer</a>"),
                "who_to_allow": "<b>Wem soll ich es erlauben, dir zu schreiben?</b>",
-               "allowed": "<b>Hi! Nun kannst</b> <a href='tg://user?id={}'>DU</a> <b>mit mir schreiben.</b>",
+               "allowed": "<b>Hi! Nun bin ich für</b> <a href='tg://user?id={}'>dich</a> <b>da!</b>",
                "who_to_report": "<b>Wenn soll ich melden?</b>",
                "reported": "<b>Ich habe dich nun zwecks spam gemeldet!</b>",
                "who_to_deny": "<b>Von wem soll ich die PNs ablehnen?</b>",
-               "denied": ("<b>So,</b> <a href='tg://user?id={}'>Du</a> "
+               "denied": ("<b>So,</b> <a href='tg://user?id={}'>du</a> "
                           "<b>Ich bin wieder offline. Ciao!</b>"),
                "notif_off": "<b>Benachrichtigungen für abgelehnte PNs sind nun deaktiviert.</b>",
                "notif_on": "<b>Benachrichtigungen für abgelehnte PNs sind nun aktiviert.</b>",
